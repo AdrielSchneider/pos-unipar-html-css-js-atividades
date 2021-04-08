@@ -9,3 +9,7 @@ label {
 input[type="submit"] {
     margin-left: 150px;
 }
+
+input {
+    margin: 5px 0px;
+}
