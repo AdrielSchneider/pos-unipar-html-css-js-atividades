@@ -1,0 +1,13 @@
+.card {
+    text-align: center;
+    margin: 10px;
+}
+
+img {
+    width: 25%;
+    align-content: center;
+}
+
+body {
+    background-color: lightgray;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML, CSS e JS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+																														  
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Página de noticias</h1>
+            <p class="lead">Adriel Schneider</p>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" href="index.html">Inicial</a>
+                <a class="nav-link" href="pages/cadastro.html">Cadastrar Notícia</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container-fluid">
+            <div id="dropzone" class="row" style="padding: 10px;" 
+                ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="leave(event)">
+                    
+                </div>
+
+                <div id="dropzone2" class="row" style="padding: 10px;" 
+                ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="leave(event)">
+
+                <div id="news1" class="col-lg-4" draggable="true" 
+                    ondragstart="drag(event)" ondragover="denyDrop(event)">
+
+                    <article>
+
+                        <h3>Após registrar filas de até 2h, barreira sanitária em São Sebastião é suspensa pelo
+                            Estado</h3>
+
+
+                        <h6><small class="font-weight-bolder">27/03/2021</small> <small
+                                class="float-right">adriel.sch@gmail.com</small></h6>
+                        <br>
+                        <img src="src/image/1.jpg" class="img-fluid">
+                        <p>Polícia Rodoviária Estadual determinou a suspensão por causa das extensas filas na
+                            Rio-Santos.</p>
+
+                        <!-- <p>A barreira sanitária na entrada de São Sebastião, na costa sul, foi suspensa neste sábado
+                            (27) após
+                            determinação da Polícia Rodoviária Estadual. De acordo com a administração municipal, a
+                            PRE pediu a
+                            suspensão porque o bloqueio estava gerando filas extensas e interferindo no trânsito da
+                            rodovia
+                            Rio-Santos. </p> -->
+                        <a class="btn btn-warning btn-sm float-right"
+                            href="https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2021/03/27/apos-registrar-filas-de-ate-2h-barreira-sanitaria-em-sao-sebastiao-e-suspensa-pelo-estado.ghtml">Continuar
+                            Lendo...
+                        </a>
+
+                    </article>
+
+                </div>
+
+                <div id="news2" class="col-lg-4" draggable="true" ondragstart="drag(event)" ondragover="denyDrop(event)">
+
+                    <article>
+
+                        <h3>Agnaldo Timóteo, internado com Covid-19, é intubado</h3>
+
+
+                        <h6><small class="font-weight-bolder">27/03/2021</small> <small
+                                class="float-right">adriel.sch@gmail.com</small></h6>
+                        <br>
+                        <img src="src/image/2.jpg" class="img-fluid">
+                        <p>Comunicado foi feito pela família do cantor e equipe médica que o atende.</p>
+
+                        <!-- <p>A família do cantor Agnaldo Timóteo informou que o artista, de 84 anos, precisou ser
+                            intubado às 7h
+                            deste sábado (27) para "ser tratado de forma mais segura" contra a Covid-19. </p> -->
+                        <a class="btn btn-warning btn-sm float-right"
+                            href="https://g1.globo.com/rj/rio-de-janeiro/noticia/2021/03/27/agnaldo-timoteo-internado-com-covid-19-e-intubado.ghtml">Continuar
+                            Lendo...
+                        </a>
+
+                    </article>
+
+                </div>
+
+                <div id="news3" class="col-lg-4" draggable="true" ondragstart="drag(event)" ondragover="denyDrop(event)">
+
+                    <article>
+
+                        <h3>GP do Bahrein: Verstappen faz primeira pole da F1 em 2021; Hamilton é 2º</h3>
+
+
+                        <h6><small class="font-weight-bolder">27/03/2021</small> <small
+                                class="float-right">adriel.sch@gmail.com</small></h6>
+                        <br>
+                        <img src="src/image/3.jpg" class="img-fluid">
+                        <p>Holandês da RBR vence duelo particular com o heptacampeão para largar na primeira
+                            posição em Sakhir,
+                            corrida que abre a temporada</p>
+
+                        <!-- <p>Max Verstappen começou temporada 2021 da Fórmula 1 com o pé direito, o do acelerador.
+                            Neste sábado, o
+                            holandês da RBR confirmou o favoritismo de ter sido o mais rápido em todos os treinos
+                            livres e
+                            conquistou a pole position do GP do Bahrein, em Sakhir. </p> -->
+                        <a class="btn btn-warning btn-sm float-right"
+                            href="https://globoesporte.globo.com/motor/formula-1/noticia/gp-do-barein-max-verstappen-conquista-a-primeira-pole-position-da-formula-1-2021.ghtml">Continuar
+                            Lendo...
+                        </a>
+
+                    </article>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </main>
+    <footer class="jumbotron jumbotron-fluid">
+        <div class="container">
+            Desenvolvimento de Aplicações Web e Mobile - <strong>Obrigado pelo acesso!!</strong>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+            ev.currentTarget.style.border = "3px dotted #ccc";
+            ev.currentTarget.style.background = "#eee";
+        }
+
+        function denyDrop(ev) {
+            ev.stopPropagation();
+        }
+        
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+        }
+
+        function leave(ev){
+            ev.preventDefault();
+            ev.target.style.border = "none";
+            ev.target.style.background = "inherit";
+        }
+        
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+            ev.target.style.border = "none";
+            ev.target.style.background = "inherit";
+        }
+    </script>
+</body>
+
+</html>
